@@ -55,13 +55,16 @@
               <a href="#about" class="nav-link" data-animate="scrolling">About</a>
             </li>
             <li class="nav-item">
+              <a href="#blog" class="nav-link" data-animate="scrolling">Affiliations</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link" data-animate="scrolling">Experience</a>
+            </li>
+            <li class="nav-item">
               <a href="#services" class="nav-link" data-animate="scrolling">Research</a>
             </li>
             <li class="nav-item">
               <a href="#portfolio" class="nav-link" data-animate="scrolling">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a href="#blog" class="nav-link" data-animate="scrolling">Affiliations</a>
             </li>
             <li class="nav-item">
               <a href="#contact" class="nav-link" data-animate="scrolling">Contact</a>
@@ -86,8 +89,12 @@
   
   <div class="vg-page page-about" id="about">
     <div class="container py-5">
+        <div class="text-center wow fadeInUp">
+          <div class="badge badge-subhead">About</div>
+        </div>
       <div class="row">
         <div class="col-lg-4 py-3">
+          <br><br>
           <div class="img-place wow fadeInUp">
             <img src="../assets/img/person.jfif" alt="">
             <br>
@@ -115,7 +122,47 @@
         </div>
       </div>
     </div>
-    <div class="container py-5">
+  </div>
+
+<!-- Client -->
+  <div class="vg-page page-client" id="blog">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+        <div class="badge badge-subhead">Affiliations</div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 col-xl-3 item">
+          <div class="img-place wow fadeInUp">
+            <img src="../assets/img/logo/nrc.png" alt="">
+          </div><br>
+            <a href = "https://nrc.canada.ca/en"><p><center><b>National Research Council, Government of Canada</b></center></p></a>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 item">
+          <div class="img-place wow fadeInUp">
+            <img src="../assets/img/logo/SW.png" alt="">
+          </div><br>
+            <a href = "https://spokenweb.ca"><p><center><b>SpokenWeb Project</b></center></p></a>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 item">
+          <div class="img-place wow fadeInUp">
+            <img src="../assets/img/logo/dpl.png" alt="">
+          </div><br>
+            <a href = "https://www.sfu.ca/discourse-lab.html"><p><center><b>Discourse Processing Lab</b></center></p></a>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 item">
+          <div class="img-place wow fadeInUp">
+            <img src="../assets/img/logo/csl.png" alt="">
+          </div><br>
+            <a href = "https://www.sfu.ca/cogscilab.html"><p><center><b>Cognitive Science Lab</b></center></p></a>
+        </div>
+      </div>
+    </div>
+  </div> <!-- End client -->
+
+    <div class="container py-5"  id="experience">
+        <div class="text-center wow fadeInUp">
+          <div class="badge badge-subhead">Experience</div>
+        </div>
       <h1 class="text-center fw-normal wow fadeIn">Some of My Skills</h1>
       <p><center><b>Reference Scale: [With the following criteria for each proficiency stage (1/5th of the bar)]</b></center></p>
     <div class="progress">
@@ -311,145 +358,169 @@
       </div>
     </div>
   </div>
-
-   <!-- Page Service -->
+<!-- Page Service -->
     <div class="vg-page page-service" id="services" >
+        <div class="text-center wow fadeInUp">
+          <div class="badge badge-subhead">Research</div>
+        </div>
       <h1 class="text-center wow fadeInUp">Research Publications</h1>
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-4 wow fadeInUp">
             <div class="card card-body">
-              <div class="iconic">
-                <span class="ti-announcement"></span>
-                <div class="iconictext">UBC Language Sciences Research Conference</div>
+              <button class="collapsible">
+                <div class="iconic">
+                  <span class="ti-announcement"></span>
+                  <div class="iconictext">UBC Language Sciences UG Research Conf</div>
+                </div>
+                <div class="iconic">
+                <h4 class="fg-theme">HKE - Cross-Varietal Morphosyntactic Distance</h4>  
+              </button>
+              <div class="content">
+                <p>Our aim is to facilitate investigation of potential variants by presenting a computational corpus approach towards measuring one of many ontological parameters: linguistic distinctiveness. Using the HKCSE and the BNC, we perform part-of-speech tagging, dependency parsing, and word order assessment to identify morpho-syntactic features. </p>
+                <a href="https://docs.google.com/presentation/d/1qRBF178e0dslZdGD49_juZNLlsd_R0Hz/edit?usp=sharing&ouid=105391786470571954442&rtpof=true&sd=true" class="btn btn-theme btn-rounded">Read More</a>
               </div>
-              <h4 class="fg-theme">HKE - Cross-Varietal Morphosyntactic Distance</h4>
-              <p>Our aim is to facilitate investigation of potential variants by presenting a computational corpus approach towards measuring one of many ontological parameters: linguistic distinctiveness. Using the HKCSE and the BNC, we perform part-of-speech tagging, dependency parsing, and word order assessment to identify morpho-syntactic features. </p>
-              <a href="https://docs.google.com/presentation/d/1qRBF178e0dslZdGD49_juZNLlsd_R0Hz/edit?usp=sharing&ouid=105391786470571954442&rtpof=true&sd=true" class="btn btn-theme btn-rounded">Read More</a>
             </div>
           </div>
+
           <div class="col-md-6 col-lg-4 wow fadeInUp">
             <div class="card card-body">
-              <div class="iconic">
-                <span class="ti-layout"></span>
-                <div class="iconictext">Cornell Undergrad Linguistics Colloquium</div>
+              <button class="collapsible">
+                <div class="iconic">
+                  <span class="ti-announcement"></span>
+                  <div class="iconictext">Cornell Undergrad Linguistics Colloquium</div>
+                </div>
+                <div class="iconic">
+                <h4 class="fg-theme">Loki's Wager: Fuzzy Logic for Sentiment Analysis</h4>  
+              </button>
+              <div class="content">
+                 <p>The objective of this study is to develop a model that can take in the content of a microblog (such as a tweet on Twitter) that contains opinions (or sentiments), and determine the prevalent emotions behind the tweet as a function of uncertainty about the membership functions of fuzzy sets associated with linguistic terms. This information can then be used for sentiment analysis.</p>
+                <a href="https://conf.ling.cornell.edu/culc15/posters/SundayPosters/Taking%20on%20Loki_s%20Wager.pdf" class="btn btn-theme btn-rounded">Read More</a>
               </div>
-              <h4 class="fg-theme">Loki's Wager: Fuzzy Logic for Sentiment Analysis</h4>
-              <p>The objective of this study is to develop a model that can take in the content of a microblog (such as a tweet on Twitter) that contains opinions (or sentiments), and determine the prevalent emotions behind the tweet as a function of uncertainty about the membership functions of fuzzy sets associated with linguistic terms. This information can then be used for sentiment analysis.</p>
-              <a href="https://conf.ling.cornell.edu/culc15/posters/SundayPosters/Taking%20on%20Loki_s%20Wager.pdf" class="btn btn-theme btn-rounded">Read More</a>
             </div>
           </div>
+
           <div class="col-md-6 col-lg-4 wow fadeInUp">
             <div class="card card-body">
-              <div class="iconic">
-                <span class="ti-desktop"></span>
-                <div class="iconictext">SFU Undergrad Research Conference</div>
+              <button class="collapsible">
+                <div class="iconic">
+                  <span class="ti-desktop"></span>
+                  <div class="iconictext">SFU Undergrad Research Conference</div>
+                </div>
+                <h4 class="fg-theme">Natural Language Processing Bots</h4>
+              </button>
+              <div class="content">
+                <p>An exploration of my process developing a bot to traverse through the metadata ingestion system in order to facilitate editing large volumes of data, usage of NLP word prediction techniques to fill in gaps in areas with missing data and supervised learning to automate the data entry process. Besides this, I also include considerations of more experimental applications such as lip reading.</p>
+                <a href="https://journals.lib.sfu.ca/index.php/ugrs/article/view/2855" class="btn btn-theme btn-rounded">Read More</a>
               </div>
-              <h4 class="fg-theme">Natural Language Processing Bots</h4>
-              <p>An exploration of my process developing a bot to traverse through the metadata ingestion system in order to facilitate editing large volumes of data, usage of NLP word prediction techniques to fill in gaps in areas with missing data and supervised learning to automate the data entry process. Besides this, I also include considerations of more experimental applications such as lip reading.</p>
-              <a href="https://journals.lib.sfu.ca/index.php/ugrs/article/view/2855" class="btn btn-theme btn-rounded">Read More</a>
             </div>
           </div>
 
         <div class="row">
           <div class="col-md-6 col-lg-4 wow fadeInUp">
             <div class="card card-body">
-              <div class="iconic">
-                <span class="ti-announcement"></span>
-                <div class="iconictext">Digital Humanities 2022, Tokyo</div>
-              </div>
-              <h4 class="fg-theme">Archive of the Digital Present</h4>
+              <button class="collapsible">
+                <div class="iconic">
+                  <span class="ti-announcement"></span>
+                  <div class="iconictext">Digital Humanities 2022, Tokyo</div>
+                </div>
+                <h4 class="fg-theme">Archive of the Digital Present</h4>
+              </button>
+              <div class="content">
               <p>The ADP database and directory is designed for reflection, study and analysis of online literary events in Canada during the COVID-19 pandemic. This paper presents our approaches to data collection and structuring, stack development, data visualization, and front-end design, pursued through community-oriented processes of design, research and development.</p>
               <a href="https://archiveofthepresent.spokenweb.ca" class="btn btn-theme btn-rounded">Read More</a>
+              </div>
             </div>
           </div>
+
           <div class="col-md-6 col-lg-4 wow fadeInUp">
             <div class="card card-body">
-              <div class="iconic">
-                <span class="ti-announcement"></span>
-                <div class="iconictext">Plos One</div>
+              <button class="collapsible">
+                <div class="iconic">
+                  <span class="ti-announcement"></span>
+                  <div class="iconictext">Plos One</div>
+                </div>
+                <h4 class="fg-theme">Ex-Novo Game Design and User Interface</h4>
+              </button>
+              <div class="content">
+                <p>ExNovo aims to be a single input method for finger tracking VR controllers where beginners and experts use the same interface. It involves mapping different finger tapping sequences to UI actions, with multimodal feedback to help users learn the sequences.</p>
+                <a href="https://thomasnakagawa.com/csl" class="btn btn-theme btn-rounded">Read More</a>
               </div>
-              <h4 class="fg-theme">Ex-Novo Game Design and User Interface</h4>
-              <p>ExNovo aims to be a single input method for finger tracking VR controllers where beginners and experts use the same interface. It involves mapping different finger tapping sequences to UI actions, with multimodal feedback to help users learn the sequences.</p>
-              <a href="https://thomasnakagawa.com/csl" class="btn btn-theme btn-rounded">Read More</a>
             </div>
           </div>
+
+
           <div class="col-md-6 col-lg-4 wow fadeInUp">
             <div class="card card-body">
-              <div class="iconic">
-                <span class="ti-layout"></span>
-                <div class="iconictext">Plos One</div>
+              <button class="collapsible">
+                <div class="iconic">
+                  <span class="ti-layout"></span>
+                  <div class="iconictext">Plos One</div>
+                </div>
+                <h4 class="fg-theme">Virtual Reality and Category Learning</h4>
+              </button>
+              <div class="content">
+                <p>Starting work into testing the viability of immersive virtual reality in conducting cognitive science research. Using the category learning paradigm, we are exploring how people change their behaviour over time as they learn to categorize different stimuli into their appropriate groups.</p>
+                <a href="https://doi.org/10.20383/102.0539" class="btn btn-theme btn-rounded">Read More</a>
               </div>
-              <h4 class="fg-theme">Virtual Reality and Category Learning</h4>
-              <p>Starting work into testing the viability of immersive virtual reality in conducting cognitive science research. Using the category learning paradigm, we are exploring how people change their behaviour over time as they learn to categorize different stimuli into their appropriate groups.</p>
-              <a href="https://doi.org/10.20383/102.0539" class="btn btn-theme btn-rounded">Read More</a>
             </div>
           </div>
-        </div>
 
         <div class="row">
           <div class="col-md-6 col-lg-4 wow fadeInUp">
             <div class="card card-body">
-              <div class="iconic">
-                <span class="ti-layout"></span>
-                <div class="iconictext">SFU Undergrad Research Conference</div>
+              <button class="collapsible">
+                <div class="iconic">
+                  <span class="ti-layout"></span>
+                  <div class="iconictext">SFU Undergrad Research Conference</div>
+                </div>
+                <h4 class="fg-theme">Truth as a Question of Linguistic Subjectivity in Politics</h4>
+              </button>
+              <div class="content">
+                <p>An exploration into illustrating linguistic trends in the age of misinformation with respect to targeted advertisements creating echo chambers, manufactured consent, subjective language, online disinhibition, and how news organizations create newsworthiness.</p>
+                <a href="https://journals.lib.sfu.ca/index.php/ugrs/article/view/2304" class="btn btn-theme btn-rounded">Read More</a>
               </div>
-              <h4 class="fg-theme">Truth as a Question of Linguistic Subjectivity in Politics</h4>
-              <p>An exploration into illustrating linguistic trends in the age of misinformation with respect to targeted advertisements creating echo chambers, manufactured consent, subjective language, online disinhibition, and how news organizations create newsworthiness.</p>
-              <a href="https://journals.lib.sfu.ca/index.php/ugrs/article/view/2304" class="btn btn-theme btn-rounded">Read More</a>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 wow fadeInUp">
-            <div class="card card-body">
-              <div class="iconic">
-                <span class="ti-layout"></span>
-                <div class="iconictext">SFU Scientific Undergrad Research Journal</div>
-              </div>
-              <h4 class="fg-theme">Software Daemons, Their History and Use in Modern Computing Science as an Answer to the Turing Test</h4>
-              <p> In this review, I look at the history of these pieces  of code, from Socrates’ Daemon, to the Child Machine; and examine the applications these bots could currently have in Computing Science in general and as an answer to the Turing Test in Specific.</p>
-              <a href="https://journals.sfu.ca/sfusurj/index.php/journal/article/view/73/53" class="btn btn-theme btn-rounded">Read More</a>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow fadeInUp">
-            <div class="card card-body">
-              <div class="iconic">
-                <span class="ti-desktop"></span>
-                <div class="iconictext"></div>
-              </div>
-              <h4 class="fg-theme">The SFU Opinion and Comments Corpus: A corpus for the analysis of online news comments</h4>
-              <p>The SFU Opinion and Comments Corpus (SOCC) has been collected with attention to preserving reply structures and other metadata. In addition to the raw corpus, we also present annotations for four different phenomena: constructiveness, toxicity, negation and its scope, and appraisal.</p>
-              <a href="https://github.com/sfu-discourse-lab/SOCC" class="btn btn-theme btn-rounded">Read More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-     </div>
-    </div> <!-- End page services -->
 
-  <div class="vg-page page-funfact" style="background-image: url(../assets/img/bg_banner.jpg);">
-    <div class="container">
-      <div class="row section-counter">
-        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="9">9</h1>
-          <span>Years in Programming</span>
-        </div>
-        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="4880">5180</h1>
-          <span>Project Hours</span>
-        </div>
-        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="22">22</h1>
-          <span>National Awards</span>
-        </div>
-        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="8">8</h1>
-          <span>Publications</span>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card card-body">
+              <button class="collapsible">
+                <div class="iconic">
+                  <span class="ti-layout"></span>
+                  <div class="iconictext">SFU Scientific Undergrad Research Journal</div>
+                </div>
+                <h4 class="fg-theme">Software Daemons, Their History and Use in Modern Computing Science as an Answer to the Turing Test</h4>
+              </button>
+              <div class="content">
+                <p> In this review, I look at the history of these pieces  of code, from Socrates’ Daemon, to the Child Machine; and examine the applications these bots could currently have in Computing Science in general and as an answer to the Turing Test in Specific.</p>
+                <a href="https://journals.sfu.ca/sfusurj/index.php/journal/article/view/73/53" class="btn btn-theme btn-rounded">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card card-body">
+              <button class="collapsible">
+                <div class="iconic">
+                  <span class="ti-desktop"></span>
+                  <div class="iconictext"></div>
+                </div>
+                <h4 class="fg-theme">The SFU Opinion and Comments Corpus: A corpus for the analysis of online news comments</h4>
+              </button>
+              <div class="content">
+                <p>The SFU Opinion and Comments Corpus (SOCC) has been collected with attention to preserving reply structures and other metadata. In addition to the raw corpus, we also present annotations for four different phenomena: constructiveness, toxicity, negation and its scope, and appraisal.</p>
+                <a href="https://github.com/sfu-discourse-lab/SOCC" class="btn btn-theme btn-rounded">Read More</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </div> 
+    <br> 
   </div>
-  
-      
+  </div><!-- End page services -->
+
     <!-- Portfolio page -->
     <div class="vg-page page-portfolio" id="portfolio">
       <div class="container">
@@ -466,7 +537,6 @@
           <button class="btn btn-theme-outline" data-filter=".graphic">Linguistics</button>
           <button class="btn btn-theme-outline" data-filter=".wireframes">Misc.</button>
         </div>
-
         <div class="gridder my-3">
           <div class="grid-item apps wow zoomIn">
             <div class="img-place" data-src="../assets/img/work/crypt.png" data-fancybox data-caption="<h5 class='fg-theme'>Blockchain News Aggregator</h5> <p>News and Real-time updates about cryptocurrencies, NFTs etc.</p>">
@@ -528,42 +598,30 @@
         </div>
       </div>
     </div> <!-- End Portfolio page -->
-  
-  <!-- Client -->
-  <div class="vg-page page-client" id="blog">
+
+  <div class="vg-page page-funfact" style="background-image: url(../assets/img/bg_banner.jpg);">
     <div class="container">
-      <div class="text-center wow fadeInUp">
-        <div class="badge badge-subhead">Affiliations</div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-4 col-xl-3 item">
-          <div class="img-place wow fadeInUp">
-            <img src="../assets/img/logo/nrc.png" alt="">
-          </div><br>
-            <a href = "https://nrc.canada.ca/en"><p><center><b>National Research Council, Government of Canada</b></center></p></a>
+      <div class="row section-counter">
+        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+          <h1 class="number" data-number="9">9</h1>
+          <span>Years in Programming</span>
         </div>
-        <div class="col-md-6 col-lg-4 col-xl-3 item">
-          <div class="img-place wow fadeInUp">
-            <img src="../assets/img/logo/SW.png" alt="">
-          </div><br>
-            <a href = "https://spokenweb.ca"><p><center><b>SpokenWeb Project</b></center></p></a>
+        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+          <h1 class="number" data-number="4880">5180</h1>
+          <span>Project Hours</span>
         </div>
-        <div class="col-md-6 col-lg-4 col-xl-3 item">
-          <div class="img-place wow fadeInUp">
-            <img src="../assets/img/logo/dpl.png" alt="">
-          </div><br>
-            <a href = "https://www.sfu.ca/discourse-lab.html"><p><center><b>Discourse Processing Lab</b></center></p></a>
+        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+          <h1 class="number" data-number="22">22</h1>
+          <span>National Awards</span>
         </div>
-        <div class="col-md-6 col-lg-4 col-xl-3 item">
-          <div class="img-place wow fadeInUp">
-            <img src="../assets/img/logo/csl.png" alt="">
-          </div><br>
-            <a href = "https://www.sfu.ca/cogscilab.html"><p><center><b>Cognitive Science Lab</b></center></p></a>
+        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+          <h1 class="number" data-number="8">8</h1>
+          <span>Publications</span>
         </div>
       </div>
     </div>
-  </div> <!-- End client -->
-  
+  </div>
+
   <!-- Contact -->
   <div class="vg-page page-contact" id="contact">
     <div class="container-fluid">
@@ -706,6 +764,24 @@
   </div> <!-- End footer -->
 </div>
   
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
   
   <script src="../assets/js/jquery-3.5.1.min.js"></script>
     
