@@ -135,75 +135,93 @@
       </div>
       <br><br>
       <div class="text-center wow fadeInUp">
-        <div class="badge badge-subhead">Skills Summary</div>
+        <h1 class="fw-light">Skills and Work Experience</h1>
       </div>
       
-      <h1 class="fw-light">Skills Summary</h1>
-      <h5 class="fg-theme mb-3">A Summary of Technical and Soft Skills I've gained through Work Experience and Projects:</h5>
-      
-      <div class="skills-container">
-        
-        <!-- Data Science Skills -->
-        <div class="skill-box">
-          <h3>Data Science</h3>
-          <p><b>Data Analysis:</b> pandas | NumPy | Data Cleaning | Data Visualization | Statistical Analysis | Data Lakes | SQL</p>
-          <p><b>Data Visualization:</b> Tableau | Power BI | Matplotlib | ggplot2 | Plotly | Business Intelligence (BI) Tools</p>
-        </div>
-        
-        <!-- AI/ML Skills -->
-        <div class="skill-box">
-          <h3>AI / ML</h3>
-          <p><b>Machine Learning & AI:</b> TensorFlow | PyTorch | Azure MLOps | Model Training & Evaluation | Feature Extraction | YOLO (Object Detection, OCR) | Large Language Models (LLMs) – LLAMA 2, 3; WizardLM-2 30b | Triton | A/B Testing | Experiment Design | Deep Learning | Neural Networks | Bayesian Statistics</p>
-          <p><b>Natural Language Processing (NLP) & Generation (NLG):</b> Information Retrieval (IR) | Retrieval Augmented Generation (RAG) | Semantic Role Labeling | Dialogue Systems | Part-of-Speech Tagging | Named Entity Recognition (NER) | NLTK | Text Preprocessing | Tokenization | Sentiment Analysis | Topic Modeling | Spacy</p>
-        </div>
-        
-        <!-- Programming Skills -->
-        <div class="skill-box">
-          <h3>Programming</h3>
-          <p><b>Programming Languages:</b> Python (Spacy, SciPy, NumPy, Pandas) | Java | C++ | C# | C | MATLAB | R</p>
-          <p><b>Web Development & Database Management:</b> Angular | Node.js | HTML, CSS, JavaScript | MySQL | Database Design & Querying | Data Model Optimization | Database Normalization | Elasticsearch</p>
+      <div class="skills-icons-container">
+        <div class="col-md-6 col-lg-4 col-xl-3 item">
+          <div class="img-place wow fadeInUp">
+            <img src="assets/img/skills/python-logo.png" alt="Python">
+          </div>
+          <p><center><b>Python</b></center></p>
         </div>
       
-        <!-- Research Skills -->
-        <div class="skill-box">
-          <h3>Research</h3>
-          <p><b>Experiment Design:</b> A/B Testing | Experiment Design | Feature Extraction | Model Training & Evaluation | Statistical Analysis | Data Storytelling</p>
-          <p><b>Business & Communication Skills:</b> Business Acumen | Communication with Stakeholders | Interdisciplinary Collaboration | Ethical Judgment | Data Privacy Expertise</p>
-        </div>
-        
-        <!-- Cybersecurity Skills -->
-        <div class="skill-box">
-          <h3>Cybersecurity</h3>
-          <p><b>Data Privacy Expertise</b></p>
+        <div class="col-md-6 col-lg-4 col-xl-3 item">
+          <div class="img-place wow fadeInUp">
+            <img src="assets/img/skills/pytorch-logo.png" alt="React">
+          </div>
+          <p><center><b>Pytorch</b></center></p>
         </div>
       
-        <!-- Additional Skills -->
-        <div class="skill-box">
-          <h3>Additional Skills</h3>
-          <p><b>Software Development Lifecycle (SDLC):</b> Agile Methodologies | Git Version Control | Docker | Continuous Integration/Continuous Deployment (CI/CD) | Testing & Debugging</p>
-          <p><b>Big Data & Cloud Computing:</b> AWS | Azure | NoSQL (MongoDB, Cassandra) | Distributed Computing</p>
-          <p><b>Adaptive Learning & Problem-Solving:</b> Continuous Learning | Critical Thinking | Attention to Detail | Problem-Solving Skills | Domain Expertise</p>
+        <div class="col-md-6 col-lg-4 col-xl-3 item">
+          <div class="img-place wow fadeInUp">
+            <img src="assets/img/skills/package-logo.png" alt="JavaScript">
+          </div>
+          <p><center><b>Python Packages</b></center></p>
         </div>
-        
+      
+        <div class="col-md-6 col-lg-4 col-xl-3 item">
+          <div class="img-place wow fadeInUp">
+            <img src="assets/img/skills/nodejs-logo.png" alt="Node.js">
+          </div>
+          <p><center><b>Node.js</b></center></p>
+        </div>
+      
+        <div class="col-md-6 col-lg-4 col-xl-3 item">
+          <div class="img-place wow fadeInUp">
+            <img src="assets/img/skills/tensorflow-logo.png" alt="TensorFlow">
+          </div>
+          <p><center><b>TensorFlow</b></center></p>
+        </div>
+      
+        <!-- Add more skill icons as needed -->
       </div>
       
       <style>
-        .skills-container {
+        .skills-icons-container {
           display: flex;
           flex-wrap: wrap;
           gap: 20px;
-        }
-        .skill-box {
-          border: 1px solid #ccc;
+          justify-content: center;
           padding: 20px;
-          border-radius: 8px;
-          width: 45%;
-          background-color: #f9f9f9;
-          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
-        .skill-box h3 {
-          margin-top: 0;
-          color: #007bff;
+      
+        .item {
+          text-align: center;
+        }
+      
+        .img-place {
+          width: 100px; /* Adjust size as necessary */
+          height: 100px;
+          overflow: hidden;
+          border-radius: 10px;
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s, box-shadow 0.3s;
+        }
+      
+        .img-place img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          transition: opacity 0.3s ease-in-out;
+        }
+      
+        .img-place:hover {
+          transform: scale(1.1);
+          box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
+        }
+      
+        .img-place:hover img {
+          opacity: 0.8;
+        }
+      
+        .resume-link {
+          color: orange;
+          text-decoration: none;
+        }
+      
+        .resume-link:hover {
+          text-decoration: underline;
         }
       </style>
       <!--div class="text-center wow fadeInUp">
@@ -868,6 +886,79 @@
       <div class="badge badge-subhead">Technical Skills</div>
     </div>
   <div class = "container">
+
+    <div class="text-center wow fadeInUp">
+      <div class="badge badge-subhead">Skills Summary</div>
+    </div>
+    
+    <h1 class="fw-light">Skills Summary</h1>
+    <h5 class="fg-theme mb-3">A Summary of Technical and Soft Skills I've gained through Work Experience and Projects:</h5>
+    
+    <div class="skills-container">
+      
+      <!-- Data Science Skills -->
+      <div class="skill-box">
+        <h3>Data Science</h3>
+        <p><b>Data Analysis:</b> pandas | NumPy | Data Cleaning | Data Visualization | Statistical Analysis | Data Lakes | SQL</p>
+        <p><b>Data Visualization:</b> Tableau | Power BI | Matplotlib | ggplot2 | Plotly | Business Intelligence (BI) Tools</p>
+      </div>
+      
+      <!-- AI/ML Skills -->
+      <div class="skill-box">
+        <h3>AI / ML</h3>
+        <p><b>Machine Learning & AI:</b> TensorFlow | PyTorch | Azure MLOps | Model Training & Evaluation | Feature Extraction | YOLO (Object Detection, OCR) | Large Language Models (LLMs) – LLAMA 2, 3; WizardLM-2 30b | Triton | A/B Testing | Experiment Design | Deep Learning | Neural Networks | Bayesian Statistics</p>
+        <p><b>Natural Language Processing (NLP) & Generation (NLG):</b> Information Retrieval (IR) | Retrieval Augmented Generation (RAG) | Semantic Role Labeling | Dialogue Systems | Part-of-Speech Tagging | Named Entity Recognition (NER) | NLTK | Text Preprocessing | Tokenization | Sentiment Analysis | Topic Modeling | Spacy</p>
+      </div>
+      
+      <!-- Programming Skills -->
+      <div class="skill-box">
+        <h3>Programming</h3>
+        <p><b>Programming Languages:</b> Python (Spacy, SciPy, NumPy, Pandas) | Java | C++ | C# | C | MATLAB | R</p>
+        <p><b>Web Development & Database Management:</b> Angular | Node.js | HTML, CSS, JavaScript | MySQL | Database Design & Querying | Data Model Optimization | Database Normalization | Elasticsearch</p>
+      </div>
+    
+      <!-- Research Skills -->
+      <div class="skill-box">
+        <h3>Research</h3>
+        <p><b>Experiment Design:</b> A/B Testing | Experiment Design | Feature Extraction | Model Training & Evaluation | Statistical Analysis | Data Storytelling</p>
+        <p><b>Business & Communication Skills:</b> Business Acumen | Communication with Stakeholders | Interdisciplinary Collaboration | Ethical Judgment | Data Privacy Expertise</p>
+      </div>
+      
+      <!-- Cybersecurity Skills -->
+      <div class="skill-box">
+        <h3>Cybersecurity</h3>
+        <p><b>Data Privacy Expertise</b></p>
+      </div>
+    
+      <!-- Additional Skills -->
+      <div class="skill-box">
+        <h3>Additional Skills</h3>
+        <p><b>Software Development Lifecycle (SDLC):</b> Agile Methodologies | Git Version Control | Docker | Continuous Integration/Continuous Deployment (CI/CD) | Testing & Debugging</p>
+        <p><b>Big Data & Cloud Computing:</b> AWS | Azure | NoSQL (MongoDB, Cassandra) | Distributed Computing</p>
+        <p><b>Adaptive Learning & Problem-Solving:</b> Continuous Learning | Critical Thinking | Attention to Detail | Problem-Solving Skills | Domain Expertise</p>
+      </div>
+      
+    </div>
+    
+    <style>
+      .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .skill-box {
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 8px;
+        width: 45%;
+        background-color: #f9f9f9;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .skill-box h3 {
+        margin-top: 0;
+        color: #007bff;
+      }
+    </style>
     <h1 class="text-center fw-normal wow fadeIn">Some of My Skills</h1>
     <!--p><center><b>Reference Scale: [With the following criteria for each proficiency stage (1/5th of the bar)]</b></center></p>
     <div class="progress">
