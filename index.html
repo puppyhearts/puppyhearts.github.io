@@ -1128,37 +1128,105 @@
       <div class="text-center wow fadeInUp">
         <div class="badge badge-subhead">Hobbies / Contact</div>
       </div>
-      <h1 class="text-center fw-normal wow fadeInUp">Get in touch</h1>
-      <div class="row py-5">
-        <div class="col-lg-7 px-0 pr-lg-3 wow zoomIn">
-          <div class="rowhobby">
-            <div class="containerhobby">
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="../assets/img/logo/wt.png" alt="Avatar" class="imagehobby" style="width:100%">
+      <div class="vg-page page-contact" id="contact">
+        <div class="container-fluid">
+          <div class="text-center wow fadeInUp">
+            <div class="badge badge-subhead">Hobbies / Contact</div>
+          </div>
+          <h1 class="text-center fw-normal wow fadeInUp">Get in touch</h1>
+          <div class="row py-5 justify-content-center">
+            <div class="hobby-grid">
+              <div class="containerhobby">
+                <img src="../assets/img/logo/wt.png" alt="Avatar" class="imagehobby">
+                <div class="middlehobby">
+                  <a><button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Walking Trails</button></a>
+                </div>
+              </div>
+              <div class="containerhobby">
+                <img src="../assets/img/self/jits.jpeg" alt="Avatar" class="imagehobby">
+                <div class="middlehobby">
+                  <a><button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Jiu-Jitsu</button></a>
+                </div>
+              </div>
+              <div class="containerhobby">
+                <img src="../assets/img/self/mun.jpg" alt="Avatar" class="imagehobby">
+                <div class="middlehobby">
+                  <a><button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Debates</button></a>
+                </div>
+              </div>
+              <div class="containerhobby">
+                <img src="../assets/img/self/snow1.jpg" alt="Avatar" class="imagehobby">
+                <div class="middlehobby">
+                  <a><button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Snowboarding</button></a>
+                </div>
+              </div>
+              <div class="containerhobby">
+                <img src="../assets/img/self/poetr.png" alt="Avatar" class="imagehobby">
+                <div class="middlehobby">
+                  <a><button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Poetry</button></a>
+                </div>
+              </div>
             </div>
-            <div class="containerhobby">
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="../assets/img/self/jits.jpeg" alt="Avatar" class="imagehobby" style="width:100%" style="height:100%">
-            <div class="middlehobby">
-              <a><button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Jiu-Jitsu</button></a>
-            </div>
-            </div>
-            <div class="containerhobby">
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="../assets/img/self/mun.jpg" alt="Avatar" class="imagehobby" style="width:100%">
-            <div class="middlehobby">
-              <a><button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Debates</button></a>
-            </div>
-            </div>
-            <div class="containerhobby">
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="../assets/img/self/snow1.jpg" alt="Avatar" class="imagehobby" style="width:100%">
-            <div class="middlehobby">
-              <a><button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Snow-boarding</button></a>
-            </div>
-            </div><div class="containerhobby">
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="../assets/img/self/poetr.png" alt="Avatar" class="imagehobby" style="width:100%">
-            <div class="middlehobby">
-              <a><button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Poetry</button></a>
-            </div>
-          </div><br>
+          </div>
         </div>
+      </div>
+      
+      <style>
+        .hobby-grid {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+          justify-content: center;
+        }
+      
+        .containerhobby {
+          position: relative;
+          width: 200px;
+          height: 200px;
+          overflow: hidden;
+          border-radius: 8px;
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+      
+        .imagehobby {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.3s ease;
+        }
+      
+        .containerhobby:hover .imagehobby {
+          transform: scale(1.1);
+        }
+      
+        .middlehobby {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          opacity: 0;
+          background-color: rgba(0, 0, 0, 0.5);
+          transition: opacity 0.3s ease;
+          border-radius: 8px;
+        }
+      
+        .containerhobby:hover .middlehobby {
+          opacity: 1;
+        }
+      
+        .middlehobby button {
+          color: white;
+          background-color: transparent;
+          border: 2px solid white;
+          border-radius: 4px;
+          padding: 10px 20px;
+          cursor: pointer;
+        }
+      </style>
           <!--div class="rowhobby">
             <div class="containerhobby">
             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="../assets/img/logo/wt.png" alt="Avatar" class="imagehobby" style="width:100%">
@@ -1188,7 +1256,7 @@
               </div>
             </div-->
         </div><!--End Row Hobby-->
-        <div class="col-lg-5">
+        <!--div class="col-lg-5">
           <form class="vg-contact-form">
             <div class="form-row">
               <div class="col-12 mt-3 wow fadeInUp">
@@ -1206,7 +1274,7 @@
               <button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Send Message</button>
             </div>
           </form>
-        </div>
+        </div-->
       </div>
     </div>
   </div>
