@@ -1207,6 +1207,8 @@
       background-color: rgba(0, 0, 0, 0.5);
       transition: opacity 0.3s ease;
       border-radius: 8px;
+      padding: 10px; /* Adds padding to prevent cutoff */
+      box-sizing: border-box; /* Ensures padding doesn’t expand beyond the container */
     }
   
     .containerhobby:hover .middlehobby {
@@ -1220,6 +1222,7 @@
       border-radius: 4px;
       padding: 10px 20px;
       cursor: pointer;
+      font-size: 16px; /* Adjust font size if needed */
     }
   </style>
           <!--div class="rowhobby">
